@@ -21,6 +21,7 @@ header{
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 1rem;
@@ -41,10 +42,12 @@ nav ul li a{
 }
 
 section{
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
+
 
 footer{
     text-align: center;
